@@ -1,3 +1,24 @@
-header h1, h3 {
-	text-align: center;
-}
+* {
+  padding: 0px;
+  margin: 0px; }
+
+.header_col, header {
+  color: #dddddd;
+  background-color: #444444; }
+
+header {
+  height: 3rem;
+  padding: 5px; }
+  header h1 {
+    float: left; }
+  header nav {
+    float: right; }
+    header nav ul {
+      list-style-type: none; }
+      header nav ul li {
+        display: inline; }
+
+main {
+  clear: both; }
+
+/*# sourceMappingURL=style.css.map */

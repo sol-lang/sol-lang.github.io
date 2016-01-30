@@ -1,0 +1,37 @@
+@import "variables";
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+.header_col {
+	color: $header-color;
+	background-color: $header-bg-color;
+}
+
+header {
+	@extend .header_col;
+	height: 3rem;
+	padding: 5px;
+
+	h1 {
+		float: left;
+	}
+
+	nav {
+		float: right;
+
+		ul {
+			list-style-type: none;
+
+			li {
+				display: inline;
+			}
+		}
+	}
+}
+
+main {
+	clear: both;
+}
